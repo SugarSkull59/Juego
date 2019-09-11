@@ -1,0 +1,68 @@
+@font-face {
+    font-family:escolar;
+     src: url("escolar.ttf");
+    
+}
+
+body {
+    padding:50px;
+    font-family: escolar;
+    background-color: rgb(248, 187, 240);
+}
+
+.timer {
+    font-size: 2em;
+    color: darkslateblue;
+}
+
+h1 {
+    margin-left: 20%;
+    text-align: center;
+    padding-bottom: 30px;
+    color: darkmagenta;
+    font-size: 4em;
+   
+}
+
+h3 {
+    font-size: 2em;
+    color: darkslateblue;
+}
+
+section {
+    float: left;
+}
+
+#word {
+    text-align: center;
+    padding-bottom: 20px;
+    letter-spacing: 6px;
+}
+
+.letter {
+    cursor: pointer;
+}
+
+.letter-correct {
+    color: green
+}
+
+.letter-incorrect{
+    color: red;
+}
+
+picture {
+    padding-left: 50px;
+}
+
+#image {
+    margin-top: 10%;
+    width: 15%;
+}
+
+#img {
+   width: 60%;
+   float: right;
+   
+   
+}
